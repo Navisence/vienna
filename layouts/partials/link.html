@@ -1,4 +1,9 @@
 <div class="sns-links hidden-print">
+  {{ with .Site.Params.info }}
+  <a href="{{ . }}">
+    <i class="fa fa-info"></i>
+  </a>
+  {{ end }}
   {{ with .Site.Params.contact }}
   <a href="{{ . }}">
     <i class="fa fa-envelope"></i>
