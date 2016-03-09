@@ -62,6 +62,8 @@ copyright = "&copy; Copyright notice"
     # Short subtitle/tagline. This is displayed in the header.
     subtitle = "Short subtitle/tagline of your blog"
     themecolor = "#hexcolor" # Defines the tab color in Chrome for Android.
+    # Add link to an info/about page
+    info = "/page/about"
     # Show recent posts in footer
     recentPosts = true
     recentPostDisplayCount = 5 # Change as you wish
