@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
 <div class="article-list">
+  {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
   {{ range $index, $page := .Paginator.Pages }}
   {{ if ne $index 0 }}
   <hr/>
